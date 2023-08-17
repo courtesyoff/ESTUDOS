@@ -6,7 +6,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 100%;
     background-color: darkgray;
 }
 
@@ -38,6 +38,8 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10%;
     padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
 }
 section.normal {
     background-color: white;
@@ -46,7 +48,13 @@ section.normal {
 
 section.imagem {
     background-color: aqua;
-    color: red;
+    color: white;
+    
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.552);
+    width: 400px;
 }
 
 footer {
